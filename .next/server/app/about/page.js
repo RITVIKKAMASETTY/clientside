@@ -12,7 +12,7 @@ exports.id = "app/about/page";
 exports.ids = ["app/about/page"];
 exports.modules = {
 
-/***/ "./action-async-storage.external?9022":
+/***/ "./action-async-storage.external":
 /*!****************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external" ***!
   \****************************************************************************/
@@ -23,7 +23,7 @@ module.exports = require("next/dist/client/components/action-async-storage.exter
 
 /***/ }),
 
-/***/ "./action-async-storage.external?8dda":
+/***/ "../../client/components/action-async-storage.external":
 /*!*******************************************************************************!*\
   !*** external "next/dist/client/components/action-async-storage.external.js" ***!
   \*******************************************************************************/
@@ -34,7 +34,7 @@ module.exports = require("next/dist/client/components/action-async-storage.exter
 
 /***/ }),
 
-/***/ "./request-async-storage.external?93d0":
+/***/ "./request-async-storage.external":
 /*!*****************************************************************************!*\
   !*** external "next/dist/client/components/request-async-storage.external" ***!
   \*****************************************************************************/
@@ -45,7 +45,7 @@ module.exports = require("next/dist/client/components/request-async-storage.exte
 
 /***/ }),
 
-/***/ "./request-async-storage.external?3d59":
+/***/ "../../client/components/request-async-storage.external":
 /*!********************************************************************************!*\
   !*** external "next/dist/client/components/request-async-storage.external.js" ***!
   \********************************************************************************/
@@ -56,7 +56,7 @@ module.exports = require("next/dist/client/components/request-async-storage.exte
 
 /***/ }),
 
-/***/ "./static-generation-async-storage.external?d822":
+/***/ "./static-generation-async-storage.external":
 /*!***************************************************************************************!*\
   !*** external "next/dist/client/components/static-generation-async-storage.external" ***!
   \***************************************************************************************/
@@ -67,7 +67,7 @@ module.exports = require("next/dist/client/components/static-generation-async-st
 
 /***/ }),
 
-/***/ "./static-generation-async-storage.external?16bc":
+/***/ "../../client/components/static-generation-async-storage.external":
 /*!******************************************************************************************!*\
   !*** external "next/dist/client/components/static-generation-async-storage.external.js" ***!
   \******************************************************************************************/
@@ -633,7 +633,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/jose","vendor-chunks/openid-client","vendor-chunks/next-auth","vendor-chunks/oauth","vendor-chunks/@babel","vendor-chunks/preact","vendor-chunks/uuid","vendor-chunks/yallist","vendor-chunks/preact-render-to-string","vendor-chunks/cookie","vendor-chunks/@panva","vendor-chunks/oidc-token-hash","vendor-chunks/@supabase","vendor-chunks/tr46","vendor-chunks/date-fns","vendor-chunks/whatwg-url","vendor-chunks/webidl-conversions"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fabout%2Fpage&page=%2Fabout%2Fpage&appPaths=%2Fabout%2Fpage&pagePath=private-next-app-dir%2Fabout%2Fpage.js&appDir=%2FUsers%2Fritvik.k%2FDownloads%2Fultimate-react-course-main%2F21-the-wild-oasis-website%2Ffinal-4-after-interactions%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fritvik.k%2FDownloads%2Fultimate-react-course-main%2F21-the-wild-oasis-website%2Ffinal-4-after-interactions&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@supabase","vendor-chunks/tr46","vendor-chunks/jose","vendor-chunks/openid-client","vendor-chunks/next-auth","vendor-chunks/date-fns","vendor-chunks/whatwg-url","vendor-chunks/oauth","vendor-chunks/@babel","vendor-chunks/preact","vendor-chunks/uuid","vendor-chunks/yallist","vendor-chunks/preact-render-to-string","vendor-chunks/cookie","vendor-chunks/webidl-conversions","vendor-chunks/@panva","vendor-chunks/oidc-token-hash","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fabout%2Fpage&page=%2Fabout%2Fpage&appPaths=%2Fabout%2Fpage&pagePath=private-next-app-dir%2Fabout%2Fpage.js&appDir=%2FUsers%2Fritvik.k%2FDownloads%2Fultimate-react-course-main%2F21-the-wild-oasis-website%2Ffinal-4-after-interactions%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fritvik.k%2FDownloads%2Fultimate-react-course-main%2F21-the-wild-oasis-website%2Ffinal-4-after-interactions&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

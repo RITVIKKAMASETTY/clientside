@@ -624,9 +624,6 @@ video {
 .h-full {
   height: 100%;
 }
-.h-10 {
-  height: 2.5rem;
-}
 .min-h-\[400px\] {
   min-height: 400px;
 }
@@ -644,9 +641,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-10 {
-  width: 2.5rem;
 }
 .max-w-6xl {
   max-width: 72rem;
@@ -1150,10 +1144,6 @@ video {
 .hover\:text-primary-900:hover {
   --tw-text-opacity: 1;
   color: rgb(27 38 49 / var(--tw-text-opacity));
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
 }
 
 .disabled\:cursor-not-allowed:disabled {
