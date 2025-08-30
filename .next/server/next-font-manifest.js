@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/ritvik.k/Downloads/ultimate-react-course-main/21-the-wild-oasis-website/final-4-after-interactions/app/layout\":[\"static/media/accc82dc8525882b-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
