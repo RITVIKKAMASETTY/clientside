@@ -1,8 +1,8 @@
 import Link from "next/link";
-import {getSession} from "../_lib/auth"
+import {auth} from "@/app/_lib/auth"
 
 export default async function Navigation() {
-  const session=await getSession();
+  const session=await auth();
   console.log(session);
   return (
     <nav className="z-10 text-xl">
@@ -30,7 +30,7 @@ export default async function Navigation() {
           >
             <img src={session.user.image} className=" h-8 rounded-full" referrerPolicy="no-referrer" />
             <span>Guest area</span>
-          </Link>):(<></>)}
+          </Link>):(<Link href="/account">Guest area</Link>)}
         </li>
       </ul>
     </nav>

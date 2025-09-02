@@ -1,4 +1,6 @@
 {
-  "/cabins/page": "app/cabins/page.js",
-  "/about/page": "app/about/page.js"
+  "/thankyou/page": "app/thankyou/page.js",
+  "/not-found": "app/not-found.js",
+  "/account/reservations/page": "app/account/reservations/page.js",
+  "/account/reservations/edit/[id]/page": "app/account/reservations/edit/[id]/page.js"
 }

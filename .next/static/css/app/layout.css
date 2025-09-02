@@ -582,6 +582,9 @@ video {
 .mt-1 {
   margin-top: 0.25rem;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .mt-24 {
   margin-top: 6rem;
 }
@@ -602,6 +605,9 @@ video {
 }
 .grid {
   display: grid;
+}
+.hidden {
+  display: none;
 }
 .aspect-square {
   aspect-ratio: 1 / 1;
@@ -641,6 +647,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.min-w-\[200px\] {
+  min-width: 200px;
 }
 .max-w-6xl {
   max-width: 72rem;
@@ -705,6 +714,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-10 {
+  gap: 2.5rem;
 }
 .gap-12 {
   gap: 3rem;
